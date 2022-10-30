@@ -179,23 +179,12 @@ h1 {
 /*Food Page */
 
 .photo_title_food{
-  background-image:url("https://thumbs.dreamstime.com/b/dog-food-studio-shot-vizsla-dog-bowl-full-kibble-isolated-over-pastel-blue-background-dry-pet-food-banner-dog-food-studio-235174259.jpg");
+  background-image:url("http://cdn.shopify.com/s/files/1/0647/3662/4854/collections/Wiggles_Banner_Designs_Desktop_Dogs_Category_Food_and_Treats_Without_Text_Size_1200x350px.jpg?v=1656055108");
       margin:0px;
       width:auto;
-      height:550px;
+      height:350px;
 }
 
-.food_portion_images1{
-  
-}
-.food_portion_images2{
-  height:200px;
-  width:300px;
-}
-
-.food_portion_images1, .food_portion_images2{
-  float:right;
-}
 
 
 .table_of_dog_classes{
@@ -216,15 +205,18 @@ h1 {
   background-image:url("http://cdn.shopify.com/s/files/1/0504/5112/0326/collections/FullBanner_1440x440_DOWtreats_1200x1200.jpg?v=1613667690");
   width:auto;
   height:367px;
+  margin-left: 20px;
+  margin-right:20px;
+  background-color: #0b0c10;
   
 }
 
 /* Training */
 
 .photo_title_training{
-  background-image: url("https://thumbs.dreamstime.com/b/cute-happy-dog-puppy-sitting-grass-pet-training-banner-obedient-shoes-outdoor-hiking-243555148.jpg");
+  background-image: url("https://www.coastalpet.com/media/7191/banner3.jpg?format=webp&quality=80");
     width:auto;
-    height:675px;
+    height:350px;
 }
 
 .center{
@@ -243,13 +235,15 @@ h1 {
   width:auto;
   height:451px;
   margin-bottom:130px;
+  margin-left: 20px;
+  margin-right:20px;
 }
 
 /*Dirty Paws*/
 
 .photo_dirty_main{
   background-image: url("http://cdn.akc.org/akccontentimages/dirty-dog-header.jpg");
-  height:640px;
+  height:350px;
   width:auto;
 }
 
@@ -274,6 +268,8 @@ h1 {
   height: 540px;
   width:auto;
   margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right:20px;
   
 }
 
@@ -282,7 +278,7 @@ h1 {
 .photo_title_dog_health{
   background-image: url("https://img.freepik.com/premium-photo/dog-doctor-with-stethoscope-veterinarian-blue-background-with-copy-space-pet-care-concept-banner_114106-2442.jpg?w=2000");
   background-size:100%;
-  height:540px;
+  height:350px;
   width:auto;
 
 
@@ -303,10 +299,10 @@ h1 {
 
 /*about*/
 .photo_title_about{
-  background-image: url("https://petpet.com/wp-content/uploads/2015/04/puppies_header.jpg");
+  background-image: url("https://www.sleepyhollowanimalhospital.com/wp-content/uploads/2022/05/4-strategies-for-maintaining-your-golden-retrievers-joint-health_banner-1500x600.jpg");
     margin:0;
     width:auto;
-    height:375px;
+    height:350px;
 }
 
 /*Search page*/

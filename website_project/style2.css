@@ -1,0 +1,215 @@
+
+.body1 {
+    background-image:url("https://www.vets4pets.com/siteassets/species/dog/large-dog-on-walk-looking-over-hills.jpg?w=585&scale=down");
+    background-position:center center;
+    background-attachment:fixed;
+    background-size:cover;
+    margin:0px;
+    background-color: #0b0c10;
+    font-family: sans-serif;
+  }
+  
+  
+  #flexbox {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:25px;
+  }
+  
+  .search {
+    margin: 20px;
+  }
+  
+  .search > h3 {
+    font-weight: normal;
+  }
+  
+  .search > h1,
+  .search > h3 {
+    color: white;
+    margin-bottom: 15px;
+    text-shadow: 0 1px #0091c2;
+  }
+  
+  .search > div {
+    display: inline-block;
+    position: relative;
+    filter: drop-shadow(0 1px #0091c2);
+  }
+  
+  .search > div:after {
+    content: "";
+    background: white;
+    width: 4px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    right: 2px;
+    transform: rotate(135deg);
+  }
+  
+  .search > div > input {
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: solid 3px white;
+    outline: none;
+    border-radius: 35px;
+    transition: width 0.5s;
+  }
+  
+  .search > div > input::placeholder {
+    color: #efefef;
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+  }
+  
+  .search > div > input:focus::placeholder {
+    opacity: 1;
+  }
+  
+  .search > div > input:focus,
+  .search > div > input:not(:placeholder-shown) {
+    width: 250px;
+  }
+  .Searchresult{
+    display:inline-block;
+    font-size:25px;
+    border-radius:25px;
+    padding:10px;
+    opacity:0;
+    margin-bottom: 4%;
+    text-decoration: none;
+    color:white;
+    border-style:solid;
+    transition:.2s;
+    border-color:white;
+    
+  }
+  .Searchresult:hover{
+    transform:scale(120%);
+    transition:.2s;
+    backdrop-filter: blur(4px);
+  }
+  .Searchresultformat{
+    text-align:center;
+    
+  }
+  /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: #1F2833;
+      overflow: hidden;
+      margin:0px;
+      width: 100%;
+      
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #C5C6C7;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      
+      
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #66FCF1;
+      color: #0b0c10 ;
+    }
+  
+  /* search bar */
+  .topnav button {
+    background-color: #1F2833;
+    border: none;
+    color: #C5C6C7;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float:right;
+    height:15px;
+    width:auto;
+  }
+
+    /* bottom footer of the webpage */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding:5px;
+    
+}
+
+
+.footer_images{
+  padding:15px;
+
+}
+
+.footer_image_sizes{
+  height:30px;
+  width:30px;
+  transform:scale(100%); /*Size the icons start as*/
+  transition:.2s;
+  
+
+}
+
+.footer_image_sizes:hover{
+  transform:scale(200%);
+  transition:0.1;
+
+}
+
+
+/*contact*/
+.body2{
+    background-image:url("https://wallpaperaccess.com/full/4610423.jpg");
+      background-position:center center;
+      background-attachment:fixed;
+      background-size:cover;
+      margin-bottom:10px;
+      background-color: #0b0c10;
+  }
+
+.media_icon_table{
+    margin-left:auto;
+    margin-right:auto;
+}
+.media_icon_contact{
+    padding:20px;
+    
+}
+
+.media_icon_sizes{
+    height:80px;
+    width:80px;
+    margin:20px;
+    transform:scale(100%); 
+    transition:.2s;
+}
+
+.media_icon_sizes:hover{
+    transform:scale(200%);
+    transition:0.1;
+}

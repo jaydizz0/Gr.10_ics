@@ -1,10 +1,34 @@
 
-
-body{
-    background-color:rgb(95, 158, 160) ;
-    margin-top:10px;
+/*home page*/
+.body3{
+  background-image: url("https://wallpaperaccess.com/full/266789.jpg");
+    background-position:center center;
+    background-attachment:fixed;
+    background-size:cover;
+    margin-bottom:10px;
+    background-color: #0b0c10;
+    font-family: sans-serif;
 }
 
+
+
+body{
+    background-color: #0b0c10 !important;
+    margin-top:10px !important;
+    font-family: sans-serif !important;
+    color:#0b0c10 !important;
+}
+
+p{
+  font-size: medium;
+}
+
+ul{
+  font-size: large;
+}
+ol{
+  font-size: large;
+}
 h1 {
     text-align: center;
     font-size:40px;
@@ -22,19 +46,20 @@ h1 {
 
   /* Add a black background color to the top navigation */
   .topnav {
-    background-color: white;
+    background-color: #1F2833;
     overflow: hidden;
+    margin-top: 0px;
     
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: black;
+    color: #C5C6C7;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
   }
   
   /* Change the color of links on hover */
@@ -45,42 +70,60 @@ h1 {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: black;
-    color: White ;
+    background-color: #66FCF1;
+    color: #0b0c10 ;
   }
 
 /* search bar */
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: 2px;
-    border-style: solid;
-    border-color:black;
-    font-size: 17px;
+.topnav button {
+    background-color: #1F2833;
+    border: none;
+    color: #C5C6C7;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float:right;
+    height:15px;
+    width:auto;
   }
 
-/* For the title of webpages */
-#header{
-    color:black;
-    background-color:gray;
+  /* For the title of webpages */
+.header{
     padding:30px;
     text-align: center;
     
 }
 
+.header h1{
+  color:#66FCF1;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
+}
 
 /* Paragraph */
 #main{
-    background-color: silver;
-    padding:30px;
+    background-color:#45A29E ;
+    padding:20px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-right:10px;
+    margin-left:10px;
+    border-radius: 25px;
+
 }
 
+#main h2{
+  font-size: 30px;
+  
 
+}
+
+#main p{
+  font-size: 20px;
+}
 * {
     box-sizing: border-box;
   }
@@ -88,13 +131,13 @@ h1 {
 
 /*child elements automatically align like columns or rows with auto width and auto height*/
   .row {
-    display: flex;
+    display: flex !important; 
   }
   
   /* Create three equal columns that sits next to each other */
   .column {
-    flex: 33.33%;
-    padding:0px;
+    flex: 33.33% !important;
+    padding:0px !important;
   }
 
 
@@ -108,28 +151,168 @@ h1 {
     color: white;
     text-align: left;
     padding:5px;
-    margin:0px;
-}
-
-.footer_images{
-  padding:20px;
-}
-
-.footer_image_sizes{
-  height:10px;
-  width:10px;
-
-}
-
-/*Food Page */
-
-
-.photo_title_food{
-  background-image:url("https://thumbs.dreamstime.com/b/dog-food-studio-shot-vizsla-dog-bowl-full-kibble-isolated-over-pastel-blue-background-dry-pet-food-banner-dog-food-studio-235174259.jpg");
-      margin:0;
-      width:auto;
-      height:550px;
-      
     
 }
 
+
+.footer_images{
+  padding:15px;
+
+}
+
+.footer_image_sizes{
+  height:30px;
+  width:30px;
+  transform:scale(100%); /*Size the icons start as*/
+  transition:.2s;
+  
+
+}
+
+.footer_image_sizes:hover{
+  transform:scale(200%);
+  transition:0.1;
+
+}
+
+
+/*Food Page */
+
+.photo_title_food{
+  background-image:url("https://thumbs.dreamstime.com/b/dog-food-studio-shot-vizsla-dog-bowl-full-kibble-isolated-over-pastel-blue-background-dry-pet-food-banner-dog-food-studio-235174259.jpg");
+      margin:0px;
+      width:auto;
+      height:550px;
+}
+
+.food_portion_images1{
+  
+}
+.food_portion_images2{
+  height:200px;
+  width:300px;
+}
+
+.food_portion_images1, .food_portion_images2{
+  float:right;
+}
+
+
+.table_of_dog_classes{
+   width:100%;
+   border:4px solid black;
+   margin-bottom:5px;
+   padding:5px;
+   font-size: 20px; 
+}
+  
+.table_of_dog_classes th{
+  text-align: center;
+  width:33.33%
+}
+
+
+.photo_food_bottom{
+  background-image:url("http://cdn.shopify.com/s/files/1/0504/5112/0326/collections/FullBanner_1440x440_DOWtreats_1200x1200.jpg?v=1613667690");
+  width:auto;
+  height:367px;
+  
+}
+
+/* Training */
+
+.photo_title_training{
+  background-image: url("https://thumbs.dreamstime.com/b/cute-happy-dog-puppy-sitting-grass-pet-training-banner-obedient-shoes-outdoor-hiking-243555148.jpg");
+    width:auto;
+    height:675px;
+}
+
+.center{
+  text-align: center;
+  display:block;
+  height:100%;
+  width:100%;
+}
+
+.float_right{
+  float:right;
+}
+
+.photo_training_bottom{
+  background-image: url("https://www.caninedimensions.com/wp-content/uploads/2016/01/banner-backyard-dog-training-sit.jpg");
+  width:auto;
+  height:451px;
+  margin-bottom:130px;
+}
+
+/*Dirty Paws*/
+
+.photo_dirty_main{
+  background-image: url("http://cdn.akc.org/akccontentimages/dirty-dog-header.jpg");
+  height:640px;
+  width:auto;
+}
+
+.washing_dog_photos{
+  height: 400px;
+  width:auto;
+  transform: scale(100%);
+  transition: 0.2s;
+  border:5px solid black;
+  
+}
+.washing_dog_photos:hover{
+  transform: scale(110%);
+  transition: 0.2s;
+  margin-top: 20px;
+  margin-top: 20px;
+  
+}
+.photo_dirty_bottom{
+  background-image: url("https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/img/article/white-and-orange-dogs-at-beach-playing-in-water-SW.jpg");
+  background-size: 100%;
+  height: 540px;
+  width:auto;
+  margin-bottom: 0px;
+  
+}
+
+
+/*health*/
+.photo_title_dog_health{
+  background-image: url("https://img.freepik.com/premium-photo/dog-doctor-with-stethoscope-veterinarian-blue-background-with-copy-space-pet-care-concept-banner_114106-2442.jpg?w=2000");
+  background-size:100%;
+  height:540px;
+  width:auto;
+
+
+
+}
+
+.photo_disease{
+  height:400px;
+  width:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5px solid black;
+
+}
+
+
+
+
+/*about*/
+.photo_title_about{
+  background-image: url("https://petpet.com/wp-content/uploads/2015/04/puppies_header.jpg");
+    margin:0;
+    width:auto;
+    height:375px;
+}
+
+/*Search page*/
+.photo_title_search{
+  background-image: url("https://www.pdsa.org.uk/media/5128/clicker_banner-min.jpg");
+    margin:0;
+    width:auto;
+    height:375px;
+}
